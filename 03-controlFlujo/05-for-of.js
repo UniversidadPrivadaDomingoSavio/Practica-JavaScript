@@ -1,0 +1,12 @@
+let animales = ['Perro', 'Dragon', 'Caballo', 'Vaca']
+
+for(let animal of animales){
+    console.log(typeof animal);
+    console.log(animal);
+}
+
+let i = 0;
+while(i < animales.length){
+    console.log(animales[i]);
+    i++;
+}
